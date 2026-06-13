@@ -1,0 +1,1 @@
+# Emergency_Sign_Language_to_Text_System_for_the_Elderly_Deaf
