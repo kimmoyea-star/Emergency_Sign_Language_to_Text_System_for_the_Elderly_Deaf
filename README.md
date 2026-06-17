@@ -6,7 +6,7 @@ VS Code와 아나콘다(python=3.10) 사용
 
 데이터 실시간 촬영
 
-data_collection: 데이터 실시간 촬영/data_merge: 데이터 합치기/ train_model: 인공지능 모델 구현/ test_mode: 모델 결과 확인
+data_collection: 데이터 실시간 촬영/data_merge: 데이터 합치기/ train_model: 수어 분류 모델 구현/ test_mode: 모델 결과 확인/ telegram_119: 텔레그램을 사용하여 수어 분류 결과 전달
 
 인공지능 모델 학습 (Training): 병합된 data_all.csv를 로드하여 LSTM 신경망을 가르치고 가중치 두뇌 파일을 생성함. (40프레임 최적화 반영) 실행 완료 시 최적의 가중치가 압축된 두뇌 파일인 sign_model.pth가 자동 생성/업데이트됨.
 
