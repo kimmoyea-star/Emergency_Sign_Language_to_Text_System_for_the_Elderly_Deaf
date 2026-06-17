@@ -6,6 +6,8 @@ VS Code와 아나콘다(python=3.10) 사용
 
 데이터 실시간 촬영
 
+data_collection: 데이터 실시간 촬영/data_merge: 데이터 합치기/ train_model: 인공지능 모델 구현/ test_mode: 모델 결과 확인
+
 인공지능 모델 학습 (Training): 병합된 data_all.csv를 로드하여 LSTM 신경망을 가르치고 가중치 두뇌 파일을 생성함. (40프레임 최적화 반영) 실행 완료 시 최적의 가중치가 압축된 두뇌 파일인 sign_model.pth가 자동 생성/업데이트됨.
 
 실시간 수어 추론 및 텔레그램 관제 (Testing): 웹캠을 활성화하여 사용자의 수어를 실시간 트래킹하고, 확신도 80% 이상 + 1초 이상 유지 조건 만족 시 외부 API를 통해 위치 정보와 함께 텔레그램 긴급 알림을 발송함. 실행 전에 test_model.py 파일 상단의 TELEGRAM_TOKEN 및 TELEGRAM_CHAT_ID에 본인의 봇 정보를 입력해야 정상적으로 폰에 알림이 수신됨. 웹캠 창을 선택한 상태에서 키보드 ESC 키를 누르면 안전하게 종료됨.
