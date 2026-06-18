@@ -9,7 +9,7 @@ ACTION_ID = 0  # 0: 화재, 1: 통증, 2: 위급, 3: 낙상, 4: 범죄
 ACTION_NAME = "fire"  # 파일 이름에 들어갈 영문명
 
 TOTAL_SEQUENCES = 50  # 총 촬영 횟수 (50번 반복)
-SEQUENCE_LENGTH = 40  # 한 번 촬영할 때 수집할 프레임 수 (30프레임 = 약 1초)
+SEQUENCE_LENGTH = 40  # 한 번 촬영할 때 수집할 프레임 수 (40프레임 = 약 1초)
 
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
