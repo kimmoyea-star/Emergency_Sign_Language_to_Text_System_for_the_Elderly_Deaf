@@ -26,3 +26,9 @@
 
 
 프로그램 실행 중 웹캠 창을 선택한 상태에서 키보드의 ESC 키를 누르면 프로그램이 안전하게 종료됨.
+
+### 실행 결과
+
+
+https://github.com/user-attachments/assets/e7b1e863-ff3c-427b-a965-b2ad5bdba8be
+
