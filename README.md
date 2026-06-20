@@ -27,7 +27,7 @@
 
 프로그램 실행 중 웹캠 창을 선택한 상태에서 키보드의 ESC 키를 누르면 프로그램이 안전하게 종료됨.
 
-### 실행 결과
+### 실행 결과('응급' 수어 인식)
 
 
 https://github.com/user-attachments/assets/1c617c15-173c-459c-bf2d-8795a0b7c66a
