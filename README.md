@@ -17,11 +17,11 @@
 * scikit-learn
 * requests
 
-Emergency gesture recogn: 데이터 구축 단계에서는 `data_collection.py`를 실행하여 웹캠을 통해 응급 수어 영상을 실시간으로 촬영하고, 이를 CSV 형식의 데이터로 저장함. 이후 `data_merge.py`를 사용하여 수집된 여러 개의 CSV 파일을 하나의 통합 데이터셋으로 병합함.
+<Emergency gesture recogn> 데이터 구축 단계에서는 `data_collection.py`를 실행하여 웹캠을 통해 응급 수어 영상을 실시간으로 촬영하고, 이를 CSV 형식의 데이터로 저장함. 이후 `data_merge.py`를 사용하여 수집된 여러 개의 CSV 파일을 하나의 통합 데이터셋으로 병합함.
 
-Gesture LSTM: 모델 학습 단계에서는 병합된 `data_all.csv` 파일을 로드하여 LSTM(Long Short-Term Memory) 기반 신경망을 학습시킴. 학습이 완료되면 최적의 가중치가 저장된 모델 파일인 `sign_model.pth`가 자동으로 생성 또는 업데이트됨.
+<Gesture LSTM> 모델 학습 단계에서는 병합된 `data_all.csv` 파일을 로드하여 LSTM(Long Short-Term Memory) 기반 신경망을 학습시킴. 학습이 완료되면 최적의 가중치가 저장된 모델 파일인 `sign_model.pth`가 자동으로 생성 또는 업데이트됨.
 
-Telegram alert reaction: 실시간 인식 단계에서는 `telegram_119.py`를 사용함. 웹캠을 활성화하여 사용자의 수어 동작을 추적함. 인공지능 모델이 특정 수어를 80% 이상의 확신도로 인식하고, 해당 결과가1초 이상 유지될 경우 긴급 상황으로 판단함. 이후 외부 API를 통해 현재 위치 정보를 수집하고, 텔레그램 봇을 이용하여 상황실에게 긴급 알림 메시지를 자동 전송함.
+<Telegram alert reaction> 실시간 인식 단계에서는 `telegram_119.py`를 사용함. 웹캠을 활성화하여 사용자의 수어 동작을 추적함. 인공지능 모델이 특정 수어를 80% 이상의 확신도로 인식하고, 해당 결과가1초 이상 유지될 경우 긴급 상황으로 판단함. 이후 외부 API를 통해 현재 위치 정보를 수집하고, 텔레그램 봇을 이용하여 상황실에게 긴급 알림 메시지를 자동 전송함.
 정상적인 알림 수신을 위해서는 실행 전 `test_model.py` 파일 상단에 있는 `TELEGRAM_TOKEN`과 `TELEGRAM_CHAT_ID`에 사용자의 텔레그램 봇 정보를 입력해야 함.
 
 
