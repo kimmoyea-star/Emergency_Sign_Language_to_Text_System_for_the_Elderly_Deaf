@@ -7,7 +7,7 @@ import os
 import requests 
 import time
 
-TELEGRAM_TOKEN = "8514600742:AAGA0RT1K9VBGk9tIOwBHEkZ6p6Z7smL-FQ"
+TELEGRAM_TOKEN = ("사용자의 텔레그램 토큰을 입력해주세요")
 TELEGRAM_CHAT_ID = "(사용자의 텔레그램 아이디를 입력해주세요)"
 
 def get_current_location():
